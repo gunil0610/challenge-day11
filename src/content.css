@@ -1,0 +1,160 @@
+.content {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.header {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 195px;
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+}
+
+.pictures {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.pictures__list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pictures__pic {
+  background-color: #3f67ff;
+  width: 55px;
+  height: 55px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.pictures__pic img {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.keywords {
+  width: 100%;
+}
+
+.keywords .keywords__list {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.keywords__keyword {
+  color: #3f67ff;
+  background-color: #dde2f8;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.content__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content__header .title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.title .title__title {
+  font-size: 36px;
+}
+
+.title i {
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: #ff2239;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.05),
+    -2px 5px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+.location {
+  display: flex;
+  line-height: 16px;
+  margin: 15px 0px;
+}
+
+.location i {
+  color: #3f67ff;
+  font-size: 12px;
+}
+
+.location .location__text {
+  color: #9aa9c2;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.content__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.content__info .info__stars {
+  display: flex;
+}
+
+.info__stars .star__icon {
+  color: #ffbc00;
+  margin-right: 10px;
+}
+
+.info__stars .star__num {
+  font-weight: 700;
+}
+
+.content__info .info__meter {
+  color: #9aa9c2;
+}
+
+.content__overview .overview__title {
+  color: #9aa9c2;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.overview__p {
+  color: #6c7ea4;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.overview__rm {
+  color: #3a63ff;
+  font-weight: 700;
+}
